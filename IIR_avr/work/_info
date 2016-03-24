@@ -1,0 +1,369 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/dasha/altera/13.1/modelsim_ase/bin
+valtera_mult_add
+Z1 !s100 6ScTIGCI0M^AS2gcOlAkL3
+Z2 I?_0gAJDYJVB0IA06_VBa?1
+Z3 VJMA=lS_Kz_K8mFG=Jd4j23
+Z4 d/home/dasha/QuartusProjects/DSP/IIR_avr
+Z5 w1455740489
+Z6 8/home/dasha/QuartusProjects/DSP/IIR_avr/altera_mult_add.v
+Z7 F/home/dasha/QuartusProjects/DSP/IIR_avr/altera_mult_add.v
+L0 9
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1457641614.512655
+Z10 !s107 /home/dasha/QuartusProjects/DSP/IIR_avr/altera_mult_add.v|
+Z11 !s90 -reportprogress|300|-work|work|/home/dasha/QuartusProjects/DSP/IIR_avr/altera_mult_add.v|
+Z12 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vama_0
+Z13 !s100 J4JOmbSLc9M46j_nA`01K1
+Z14 IY2OP7Q=ALR3`W<jnIcIjo3
+Z15 VP@QLSRH4c0@De7O@_lhH=0
+R4
+Z16 w1456458646
+Z17 8/home/dasha/QuartusProjects/DSP/IIR_avr/ama_0.v
+Z18 F/home/dasha/QuartusProjects/DSP/IIR_avr/ama_0.v
+L0 8
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|/home/dasha/QuartusProjects/DSP/IIR_avr/ama_0.v|
+R12
+Z20 !s108 1457641614.600223
+Z21 !s107 /home/dasha/QuartusProjects/DSP/IIR_avr/ama_0.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vama_accumulator_function
+Z22 !s100 UU[g5L68=feJia7]KCU7k2
+Z23 I@ZAEM=BJRS4?9?0bC0QDZ2
+Z24 Voj?cG4PhgfeLmMH;d^d:h0
+R4
+R5
+R6
+R7
+Z25 L0 2263
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_adder_function
+Z26 !s100 62o3^`P^0LZV>9<affXnD0
+Z27 Ic47F9BTkPi61V7akWL0CU1
+Z28 VB8cPh8E@JM?@GCI^NYba_0
+R4
+R5
+R6
+R7
+Z29 L0 1696
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_coef_reg_ext_function
+Z30 !s100 RQdLHg8AgR`lPXhP3EE3H0
+Z31 IfdaoNFfG33Ga?eBfzZkIT0
+Z32 V1Aa8[SPYT0BB?Rm`Odnb@1
+R4
+R5
+R6
+R7
+Z33 L0 1422
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_data_split_reg_ext_function
+Z34 !s100 70jE;GXXcKLVVKBL[cldK3
+Z35 IbKnOnQK9X=MSaDl7EK<9T2
+Z36 Vc2MzI;68GnV>`egTI_SAz0
+R4
+R5
+R6
+R7
+Z37 L0 1226
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_dynamic_signed_function
+Z38 !s100 :lfzZA_];FJZZb;l7DGHG3
+Z39 ID^]m=NbAcYgFAXd<CD<f<3
+Z40 VW[6QBLzYjJWZII2V54>jb1
+R4
+R5
+R6
+R7
+Z41 L0 971
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_latency_function
+Z42 !s100 06EM3l8[4d3Yj1M9izfV41
+Z43 ITog>P4C;4cQ3I@m[e7OjJ1
+Z44 Vmmz5=>H<E7=za6zi9:MC;1
+R4
+R5
+R6
+R7
+Z45 L0 2737
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_multiplier_function
+Z46 !s100 ^F1X?c<8]g:_`B4b7NB@=0
+Z47 IhhQ@?C8WSjk3>2?<Pj9BA2
+Z48 VNa^?N3I[:Nf@_Zz?V8oCH3
+R4
+R5
+R6
+R7
+Z49 L0 1906
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_preadder_function
+Z50 !s100 5IZ_UldJi<l5Lz;WLg;iE2
+Z51 IdO3M0;KkmCIE^Joa@Rjf21
+Z52 VSlNbdne20gRZ5S89[iIWg1
+R4
+R5
+R6
+R7
+Z53 L0 2061
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_register_function
+Z54 !s100 fkZDi3za>>ROW;YQ4W64<3
+Z55 IWeSR`ZcJhWFePHR_i:6310
+Z56 VaQLzm`_Si0Kf7?LH?XH541
+R4
+R5
+R6
+R7
+Z57 L0 1032
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_register_with_ext_function
+Z58 !s100 eoYB5L1][V5L<Z9OQ792^3
+Z59 IIXL2LfnbkzkK48<cd=zUl1
+Z60 V^]W7imSnAPS[Wikkgc[<?2
+R4
+R5
+R6
+R7
+Z61 L0 1142
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_scanchain
+Z62 !s100 0aI1g0_N3Mdd]Kai1CJ[X0
+Z63 ICWbzIeGYz1LENlRh[`caQ2
+Z64 Vc_@5gFKC;c=J<DK6H6:J91
+R4
+R5
+R6
+R7
+Z65 L0 2614
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_signed_extension_function
+Z66 !s100 @]U10;QSZB9meH>ME4]FN0
+Z67 IW?38Y7PL?zBL0bMjLhh@I3
+Z68 VMeUPmMXRLi005VnH_73jh3
+R4
+R5
+R6
+R7
+Z69 L0 913
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vama_systolic_adder_function
+Z70 !s100 6LH_ZzW@T8ob;b;VzGCbR3
+Z71 IKDDLD6@MlDfS`^@TiKgRz0
+Z72 V8o5A?ClK==zgGU4OZFn3P2
+R4
+R5
+R6
+R7
+Z73 L0 2418
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vFIR_avr_tst
+Z74 !s100 NlHBP;5OM?QFXD9BQ<dM^3
+Z75 I12D`VOoQAjHMWz>n^^Tic3
+Z76 VN?c0FG9`ldmWc`?kfb]FT1
+R4
+Z77 w1456258989
+Z78 8/home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.vt
+Z79 F/home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.vt
+L0 4
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|/home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.vt|
+R12
+Z81 n@f@i@r_avr_tst
+Z82 !s108 1456260737.931759
+Z83 !s107 /home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.vt|
+!i10b 1
+!s85 0
+!s101 -O0
+vIIR_avr
+Z84 !s100 FHSo0:EFn1^O:hMZUB5>C1
+Z85 I[AV@:n_;OZ6iFgf[WKmHP1
+Z86 VfUnN=VhXX;QzA9^TNZDAC1
+R4
+Z87 w1457641485
+Z88 8/home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.v
+Z89 F/home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.v
+L0 7
+R8
+r1
+31
+Z90 !s90 -reportprogress|300|-work|work|/home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.v|
+R12
+Z91 n@i@i@r_avr
+Z92 !s108 1457641614.634045
+Z93 !s107 /home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vIIR_avr_tst
+Z94 I0Y>A>jc2ZTIWon]6hP4`J2
+Z95 VPKeQa6VfoL3=>FYInIdDY3
+R4
+Z96 w1457641608
+R78
+R79
+L0 4
+R8
+r1
+31
+R80
+R12
+Z97 n@i@i@r_avr_tst
+!i10b 1
+Z98 !s100 kj`o=mbdg3X4RT;^OzK;e2
+!s85 0
+Z99 !s108 1457641614.664118
+R83
+!s101 -O0
+vtest_rom_example
+!i10b 1
+Z100 !s100 4mVQ85@YcR2;B6HY2Tb163
+Z101 IMb=6We^`0h5^WM@R4Ba=i3
+Z102 VILMdScT^n^[kKJ>8aIOA81
+R4
+Z103 w1452823027
+Z104 8/home/dasha/QuartusProjects/DSP/IIR_avr/test_rom_example.v
+Z105 F/home/dasha/QuartusProjects/DSP/IIR_avr/test_rom_example.v
+L0 11
+R8
+r1
+!s85 0
+31
+!s108 1457641614.694389
+!s107 /home/dasha/QuartusProjects/DSP/IIR_avr/test_rom_example.v|
+Z106 !s90 -reportprogress|300|-work|work|/home/dasha/QuartusProjects/DSP/IIR_avr/test_rom_example.v|
+!s101 -O0
+R12

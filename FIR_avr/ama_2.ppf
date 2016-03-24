@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="ama_2"
+ megafunction_name="ALTERA_MULT_ADD"
+ intended_family="Cyclone V"
+ specifies="all_ports">
+ <global>
+  <pin name="result[39..0]" direction="output" scope="external" />
+  <pin name="dataa_0[19..0]" direction="input" scope="external" />
+  <pin name="dataa_1[19..0]" direction="input" scope="external" />
+  <pin name="dataa_2[19..0]" direction="input" scope="external" />
+  <pin name="dataa_3[19..0]" direction="input" scope="external" />
+  <pin name="clock0" direction="input" scope="external" />
+  <pin name="coefsel0[2..0]" direction="input" scope="external" />
+  <pin name="coefsel1[2..0]" direction="input" scope="external" />
+  <pin name="coefsel2[2..0]" direction="input" scope="external" />
+  <pin name="coefsel3[2..0]" direction="input" scope="external" />
+  <pin name="chainin[39..0]" direction="input" scope="external" />
+ </global>
+</pinplan>

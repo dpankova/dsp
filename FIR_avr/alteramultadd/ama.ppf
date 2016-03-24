@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="ama"
+ megafunction_name="ALTERA_MULT_ADD"
+ intended_family="Stratix"
+ specifies="all_ports">
+ <global>
+  <pin name="result[36..0]" direction="output" scope="external" />
+  <pin name="dataa_0[17..0]" direction="input" scope="external" />
+  <pin name="dataa_1[17..0]" direction="input" scope="external" />
+  <pin name="dataa_2[17..0]" direction="input" scope="external" />
+  <pin name="dataa_3[17..0]" direction="input" scope="external" />
+  <pin name="clock0" direction="input" scope="external" />
+  <pin name="coefsel0[2..0]" direction="input" scope="external" />
+  <pin name="coefsel1[2..0]" direction="input" scope="external" />
+  <pin name="coefsel2[2..0]" direction="input" scope="external" />
+  <pin name="coefsel3[2..0]" direction="input" scope="external" />
+  <pin name="chainin[36..0]" direction="input" scope="external" />
+ </global>
+</pinplan>

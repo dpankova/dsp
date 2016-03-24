@@ -1,0 +1,67 @@
+# Loading project iir_avr
+project open /home/dasha/QuartusProjects/DSP/FIR_avr
+# reading /home/dasha/altera/13.1/modelsim_ase/linux/../modelsim.ini
+# Project file /home/dasha/QuartusProjects/DSP/FIR_avr.mpf was not found.
+# Unable to open project.
+# Loading project FIR_avr
+# Error opening /home/dasha/QuartusProjects/DSP/FIR_avr.vt
+# Path name '/home/dasha/QuartusProjects/DSP/FIR_avr.vt' doesn't exist.
+# Error opening /home/dasha/QuartusProjects/DSP/FIR_avr.vt
+# Path name '/home/dasha/QuartusProjects/DSP/FIR_avr.vt' doesn't exist.
+# Error opening /home/dasha/QuartusProjects/DSP/FIR_avr.vt
+# Path name '/home/dasha/QuartusProjects/DSP/FIR_avr.vt' doesn't exist.
+# 0 compiles, 7 failed with no errors. 
+# Compile of ama_0.v was successful.
+# Compile of ama_1.v was successful.
+# Compile of ama_2.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of FIR_avr.v was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim work.FIR_avr_tst
+# vsim work.FIR_avr_tst 
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.ama_1
+# Loading work.ama_2
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# Loading work.ama_latency_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/FIR_avr/FIR_avr.vt(19): [TFMPC] - Too few port connections. Expected 5, found 3.
+#         Region: /FIR_avr_tst/i1
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/FIR_avr/FIR_avr.vt(19): [TFMPC] - Missing connection for port 'avr_whole_out'.
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/FIR_avr/FIR_avr.vt(19): [TFMPC] - Missing connection for port 'avr_frac_out'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/FIR_avr/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_0/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/FIR_avr/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/FIR_avr/ama_1.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_1_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/FIR_avr/ama_1.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/FIR_avr/ama_2.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_2/ama_2_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/FIR_avr/ama_2.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/FIR_avr/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+add wave  \
+sim:/FIR_avr_tst/clk
+add wave  \
+sim:/FIR_avr_tst/adc
+add wave  \
+sim:/FIR_avr_tst/i1/avr_whole_out
+add wave  \
+sim:/FIR_avr_tst/i1/avr_frac_out
+run

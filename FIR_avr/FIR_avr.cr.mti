@@ -1,0 +1,56 @@
+/home/dasha/QuartusProjects/DSP/FIR_avr/FIR_avr.vt {1 {vlog -work work /home/dasha/QuartusProjects/DSP/FIR_avr/FIR_avr.vt
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FIR_avr_tst
+
+Top level modules:
+	FIR_avr_tst
+
+} {} {}} /home/dasha/QuartusProjects/DSP/FIR_avr/altera_mult_add.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/FIR_avr/altera_mult_add.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module altera_mult_add
+-- Compiling module ama_signed_extension_function
+-- Compiling module ama_dynamic_signed_function
+-- Compiling module ama_register_function
+-- Compiling module ama_register_with_ext_function
+-- Compiling module ama_data_split_reg_ext_function
+-- Compiling module ama_coef_reg_ext_function
+-- Compiling module ama_adder_function
+-- Compiling module ama_multiplier_function
+-- Compiling module ama_preadder_function
+-- Compiling module ama_accumulator_function
+-- Compiling module ama_systolic_adder_function
+-- Compiling module ama_scanchain
+-- Compiling module ama_latency_function
+
+Top level modules:
+	altera_mult_add
+
+} {} {}} /home/dasha/QuartusProjects/DSP/FIR_avr/ama_0.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/FIR_avr/ama_0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ama_0
+
+Top level modules:
+	ama_0
+
+} {} {}} /home/dasha/QuartusProjects/DSP/FIR_avr/ama_1.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/FIR_avr/ama_1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ama_1
+
+Top level modules:
+	ama_1
+
+} {} {}} /home/dasha/QuartusProjects/DSP/FIR_avr/test_rom_example.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/FIR_avr/test_rom_example.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_rom_example
+
+Top level modules:
+	test_rom_example
+
+} {} {}} /home/dasha/QuartusProjects/DSP/FIR_avr/ama_2.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/FIR_avr/ama_2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ama_2
+
+Top level modules:
+	ama_2
+
+} {} {}}

@@ -1,0 +1,625 @@
+# Loading project FIR_avr
+# Compile of FIR_avr.v failed with 1 errors.
+# Compile of FIR_avr.vt failed with 1 errors.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# 4 compiles, 2 failed with 2 errors. 
+# Compile of FIR_avr.v failed with 1 errors.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of FIR_avr.v failed with 1 errors.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.FIR_avr_tst
+# vsim work.FIR_avr_tst 
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# ** Error: (vsim-3033) /home/dasha/QuartusProjects/DSP/ama_0.v(246): Instantiation of 'altera_mult_add' failed. The design unit was not found.
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+#         Searched libraries:
+#             /home/dasha/QuartusProjects/DSP/work
+# Loading work.test_rom_example
+# Error loading design
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of 220model.v was successful.
+# 6 compiles, 0 failed with no errors. 
+vsim work.FIR_avr_tst
+# vsim work.FIR_avr_tst 
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# ** Error: (vsim-3033) /home/dasha/QuartusProjects/DSP/ama_0.v(246): Instantiation of 'altera_mult_add' failed. The design unit was not found.
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+#         Searched libraries:
+#             /home/dasha/QuartusProjects/DSP/work
+# Loading work.test_rom_example
+# Error loading design
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.FIR_avr_tst
+# vsim work.FIR_avr_tst 
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_0'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(12).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_1'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(13).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_2'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(14).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_3'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(15).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel0'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(17).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel1'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(18).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel2'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(19).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel3'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(20).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (40 or 40) does not match connection size (1) for port 'chainin'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(21).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+add wave  \
+sim:/FIR_avr_tst/adc
+add wave  \
+sim:/FIR_avr_tst/clk
+add wave  \
+sim:/FIR_avr_tst/rdaddr1
+add wave  \
+sim:/FIR_avr_tst/i1/result
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt failed with 1 errors.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt failed with 1 errors.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt failed with 1 errors.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_0'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(12).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_1'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(13).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_2'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(14).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (20 or 20) does not match connection size (14) for port 'dataa_3'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(15).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel0'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(17).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel1'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(18).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel2'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(19).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'coefsel3'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(20).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (40 or 40) does not match connection size (1) for port 'chainin'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(21).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (40 or 40) does not match connection size (39) for port 'chainin'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(21).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave  \
+sim:/FIR_avr_tst/i1/ama_inst_1/dataa_0
+restart
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.v(42): [PCDPC] - Port size (40 or 40) does not match connection size (39) for port 'chainin'. The port definition is at: /home/dasha/QuartusProjects/DSP/ama_0.v(21).
+#         Region: /FIR_avr_tst/i1/ama_inst_1
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+run
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+run
+run
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# ** Error: (vsim-3033) /home/dasha/QuartusProjects/DSP/FIR_avr.v(60): Instantiation of 'ama_1' failed. The design unit was not found.
+#         Region: /FIR_avr_tst/i1
+#         Searched libraries:
+#             /home/dasha/QuartusProjects/DSP/work
+# ** Error: (vsim-3033) /home/dasha/QuartusProjects/DSP/FIR_avr.v(73): Instantiation of 'ama_2' failed. The design unit was not found.
+#         Region: /FIR_avr_tst/i1
+#         Searched libraries:
+#             /home/dasha/QuartusProjects/DSP/work
+# Loading work.test_rom_example
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.FIR_avr_tst
+# vsim work.FIR_avr_tst 
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# ** Error: (vsim-3033) /home/dasha/QuartusProjects/DSP/FIR_avr.v(60): Instantiation of 'ama_1' failed. The design unit was not found.
+#         Region: /FIR_avr_tst/i1
+#         Searched libraries:
+#             /home/dasha/QuartusProjects/DSP/work
+# ** Error: (vsim-3033) /home/dasha/QuartusProjects/DSP/FIR_avr.v(73): Instantiation of 'ama_2' failed. The design unit was not found.
+#         Region: /FIR_avr_tst/i1
+#         Searched libraries:
+#             /home/dasha/QuartusProjects/DSP/work
+# Loading work.test_rom_example
+# Error loading design
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# Compile of ama_1.v was successful.
+# Compile of ama_2.v was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim work.FIR_avr_tst
+# vsim work.FIR_avr_tst 
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.ama_1
+# Loading work.ama_2
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# Loading work.ama_latency_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_0/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_1.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_1_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_1.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_2.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_2/ama_2_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_2.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+# Warning in wave window restart: (vish-4014) No objects found matching '/FIR_avr_tst/i1/result'. 
+run
+add wave  \
+sim:/FIR_avr_tst/i1/result_0
+add wave  \
+sim:/FIR_avr_tst/i1/result_1
+add wave  \
+sim:/FIR_avr_tst/i1/result_2
+add wave  \
+sim:/FIR_avr_tst/i1/ama_inst_1/dataa_0
+add wave  \
+sim:/FIR_avr_tst/i1/ama_inst_0/dataa_0
+add wave  \
+sim:/FIR_avr_tst/i1/ama_inst_2/dataa_0
+restart
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_0/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_1.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_1_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_1.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_2.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_2/ama_2_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_2.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# Compile of ama_1.v was successful.
+# Compile of ama_2.v was successful.
+# 7 compiles, 0 failed with no errors. 
+restart
+# Loading work.FIR_avr_tst
+# Loading work.FIR_avr
+# Loading work.ama_0
+# Loading work.altera_mult_add
+# Loading work.ama_register_function
+# Loading work.ama_data_split_reg_ext_function
+# Loading work.ama_dynamic_signed_function
+# Loading work.ama_scanchain
+# Loading work.ama_register_with_ext_function
+# Loading work.ama_preadder_function
+# Loading work.ama_adder_function
+# Loading work.ama_signed_extension_function
+# Loading work.ama_multiplier_function
+# Loading work.ama_accumulator_function
+# Loading work.ama_1
+# Loading work.ama_2
+# Loading work.test_rom_example
+# Loading work.ama_coef_reg_ext_function
+# Loading work.ama_systolic_adder_function
+# Loading work.ama_latency_function
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_0/ama_0_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_0.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_1.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_1/ama_1_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_1.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) /home/dasha/QuartusProjects/DSP/ama_2.v(246): [TFMPC] - Too few port connections. Expected 53, found 52.
+#         Region: /FIR_avr_tst/i1/ama_inst_2/ama_2_inst
+# ** Warning: (vsim-3722) /home/dasha/QuartusProjects/DSP/ama_2.v(246): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) /home/dasha/QuartusProjects/DSP/FIR_avr.vt(24): [PCDPC] - Port size (13 or 13) does not match connection size (18) for port 'rdaddr'. The port definition is at: /home/dasha/QuartusProjects/DSP/test_rom_example.v(12).
+#         Region: /FIR_avr_tst/i2
+run
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# Compile of ama_1.v was successful.
+# Compile of ama_2.v was successful.
+# 7 compiles, 0 failed with no errors. 
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# Compile of ama_1.v was successful.
+# Compile of ama_2.v was successful.
+# 7 compiles, 0 failed with no errors. 
+# Compile of FIR_avr.v was successful.
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# Compile of ama_1.v was successful.
+# Compile of ama_2.v was successful.
+# 7 compiles, 0 failed with no errors. 
+# Compile of FIR_avr.vt was successful.
+# Compile of test_rom_example.v was successful.
+# Compile of ama_0.v was successful.
+# Compile of altera_mult_add.v was successful.
+# Compile of ama_1.v was successful.
+# Compile of ama_2.v was successful.
+# Compile of FIR_avr.v was successful.
+# 7 compiles, 0 failed with no errors. 
+quit

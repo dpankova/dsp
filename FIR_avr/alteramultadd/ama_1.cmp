@@ -1,0 +1,19 @@
+	component ama_1 is
+		generic (
+			selected_device_family : string := ""
+		);
+		port (
+			result   : out std_logic_vector(39 downto 0);                    -- result
+			dataa_0  : in  std_logic_vector(19 downto 0) := (others => 'X'); -- dataa_0
+			dataa_1  : in  std_logic_vector(19 downto 0) := (others => 'X'); -- dataa_1
+			dataa_2  : in  std_logic_vector(19 downto 0) := (others => 'X'); -- dataa_2
+			dataa_3  : in  std_logic_vector(19 downto 0) := (others => 'X'); -- dataa_3
+			clock0   : in  std_logic                     := 'X';             -- clk
+			coefsel0 : in  std_logic_vector(2 downto 0)  := (others => 'X'); -- coefsel0
+			coefsel1 : in  std_logic_vector(2 downto 0)  := (others => 'X'); -- coefsel1
+			coefsel2 : in  std_logic_vector(2 downto 0)  := (others => 'X'); -- coefsel2
+			coefsel3 : in  std_logic_vector(2 downto 0)  := (others => 'X'); -- coefsel3
+			chainin  : in  std_logic_vector(39 downto 0) := (others => 'X')  -- chainin
+		);
+	end component ama_1;
+

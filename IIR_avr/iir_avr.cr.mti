@@ -1,0 +1,42 @@
+/home/dasha/QuartusProjects/DSP/IIR_avr/altera_mult_add.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/IIR_avr/altera_mult_add.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module altera_mult_add
+-- Compiling module ama_signed_extension_function
+-- Compiling module ama_dynamic_signed_function
+-- Compiling module ama_register_function
+-- Compiling module ama_register_with_ext_function
+-- Compiling module ama_data_split_reg_ext_function
+-- Compiling module ama_coef_reg_ext_function
+-- Compiling module ama_adder_function
+-- Compiling module ama_multiplier_function
+-- Compiling module ama_preadder_function
+-- Compiling module ama_accumulator_function
+-- Compiling module ama_systolic_adder_function
+-- Compiling module ama_scanchain
+-- Compiling module ama_latency_function
+
+Top level modules:
+	altera_mult_add
+
+} {} {}} /home/dasha/QuartusProjects/DSP/IIR_avr/ama_0.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/IIR_avr/ama_0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ama_0
+
+Top level modules:
+	ama_0
+
+} {} {}} /home/dasha/QuartusProjects/DSP/IIR_avr/test_rom_example.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/IIR_avr/test_rom_example.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_rom_example
+
+Top level modules:
+	test_rom_example
+
+} {} {}} /home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.v {1 {vlog -work work /home/dasha/QuartusProjects/DSP/IIR_avr/IIR_avr.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module IIR_avr
+
+Top level modules:
+	IIR_avr
+
+} {} {}}
